@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-30T09:45:55.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="cG58y4sm2uoj0wwLNszf" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-30T10:28:06.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="6u1-_aoZFqiadgpIDpvU" version="14.9.3" type="github">
   <diagram id="wxqEp88LBiz9xFU-LpbI" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
           <mxGeometry x="480" y="540" width="180" height="51" as="geometry" />
         </mxCell>
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-68" value="菜单页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="184" y="640" width="80" height="80" as="geometry" />
+          <mxGeometry x="184" y="640" width="80" height="370" as="geometry" />
         </mxCell>
         <mxCell id="JB6xn3bYR4ekpi-Zzl-W-1" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -194,6 +194,26 @@
             <mxPoint x="40" y="650" as="sourcePoint" />
             <mxPoint x="39.5" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EuUCnVsce8yCuYYj6EX9-4" value="菜单管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="630" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EuUCnVsce8yCuYYj6EX9-5" value="/admin/menu/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="EuUCnVsce8yCuYYj6EX9-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EuUCnVsce8yCuYYj6EX9-6" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="630" as="sourcePoint" />
+            <mxPoint x="680" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EuUCnVsce8yCuYYj6EX9-7" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="EuUCnVsce8yCuYYj6EX9-6">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EuUCnVsce8yCuYYj6EX9-8" value="获取系统菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="EuUCnVsce8yCuYYj6EX9-6">
+          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
