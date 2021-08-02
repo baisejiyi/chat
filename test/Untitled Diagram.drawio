@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T10:06:53.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="yj3ym_sH1q_0h6c1QCjJ" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T08:13:35.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="JjZCsBeD4l3-MVd4P60M" version="14.9.3" type="github">
   <diagram id="wxqEp88LBiz9xFU-LpbI" name="Page-1">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
@@ -215,143 +215,275 @@
         <mxCell id="EuUCnVsce8yCuYYj6EX9-8" value="get获取系统全部菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="EuUCnVsce8yCuYYj6EX9-6" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-1" value="根据传参lazy:false&lt;br&gt;页面创建完成调用此接口&lt;br&gt;接口返回系统菜单列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-1" value="根据传参lazy:false&lt;br&gt;页面创建完成调用此接口&lt;br&gt;接口返回系统菜单列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="591" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-5" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-5" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="694.5" as="sourcePoint" />
             <mxPoint x="760" y="694.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-6" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-5">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-6" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-5" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-7" value="get获取系统全部菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-5">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-7" value="get获取系统全部菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-5" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-8" value="点击页面新增按钮&lt;br&gt;调用此接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-8" value="点击页面新增按钮&lt;br&gt;调用此接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="670" width="143" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-9" value="/admin/menu/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-9" value="/admin/menu/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="760" as="sourcePoint" />
             <mxPoint x="760" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-10" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-9">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-10" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-9" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-11" value="get获取当前树节点的列表信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-9">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-11" value="get获取当前树节点的列表信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-9" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-12" value="点击行编辑按钮传id参数&lt;br&gt;如id：1200，调用此接口&lt;br&gt;返回该数据赋值给表单" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-12" value="点击行编辑按钮传id参数&lt;br&gt;如id：1200，调用此接口&lt;br&gt;返回该数据赋值给表单" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="730" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-15" value="1.点击增删改按钮&lt;br&gt;进入弹框页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-15" value="1.点击增删改按钮&lt;br&gt;进入弹框页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="900" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-16" value="菜单管理页面&lt;br&gt;&lt;br&gt;弹框界面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-16" value="菜单管理页面&lt;br&gt;&lt;br&gt;弹框界面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="400" y="1000" width="90" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-20" value="/admin/menu" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-20" value="/admin/menu" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1000" as="sourcePoint" />
             <mxPoint x="760" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-21" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-20">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-21" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-20" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-22" value="post新增弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-20">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-22" value="post新增弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-20" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-23" value="/admin/menu" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-23" value="/admin/menu" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1064.5" as="sourcePoint" />
             <mxPoint x="760" y="1064.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-24" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-23">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-24" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-23" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-25" value="put编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-23">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-25" value="put编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-23" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-26" value="/admin/menu/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-26" value="/admin/menu/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1130" as="sourcePoint" />
             <mxPoint x="760" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-27" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-26">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-27" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-26" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-28" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-26">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-28" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-26" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-29" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-29" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="950" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-30" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-30" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="1030" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-31" value="根据请求方式delete&lt;br&gt;参数id调用此接口&lt;br&gt;删除数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-31" value="根据请求方式delete&lt;br&gt;参数id调用此接口&lt;br&gt;删除数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="1110" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-32" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-32" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="440" y="840" as="sourcePoint" />
             <mxPoint x="441" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-33" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-33" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="490" y="840" as="sourcePoint" />
             <mxPoint x="760" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-42" value="根据session里权限标示&lt;br&gt;如：&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;sys_menu_add&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;如：v-if=&quot;sys_menu_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-42" value="根据session里权限标示&lt;br&gt;如：&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;sys_menu_add&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;如：v-if=&quot;sys_menu_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="810" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-43" value="/admin/role/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-43" value="/admin/role/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="1280" as="sourcePoint" />
             <mxPoint x="400" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-44" value="权限管理&lt;br&gt;&lt;br&gt;角色管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-44" value="权限管理&lt;br&gt;&lt;br&gt;角色管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="400" y="1240" width="90" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-45" value="/admin/role/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-45" value="/admin/role/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1240" as="sourcePoint" />
             <mxPoint x="760" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-46" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-45">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-46" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-45" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-47" value="get获取角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-45">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-47" value="get获取角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-45" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-48" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-48" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="1190" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-49" value="/admin/role/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-49" value="/admin/role/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1300" as="sourcePoint" />
             <mxPoint x="760" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-50" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-49">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-50" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-49" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-51" value="get查询角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="jknBJNmuQk7Yw_6J58ai-49">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-51" value="get查询角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-49" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-52" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;查询表单参数&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-52" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;查询表单参数&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="1270" width="143" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-1" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1360" as="sourcePoint" />
+            <mxPoint x="760" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-2" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-1">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-3" value="get获取部门树列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-4" value="根据请求方式get&lt;br&gt;点击角色新增,查看，编辑按钮&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1350" width="160" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-5" value="根据session里权限标示&lt;br&gt;如：roleManager_btn_add&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;roleManager_btn_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1430" width="160" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-6" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="1449" as="sourcePoint" />
+            <mxPoint x="760" y="1449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-7" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="1450" as="sourcePoint" />
+            <mxPoint x="441" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-8" value="1.点击增删改，权限按钮&lt;br&gt;进入弹框页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1520" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-9" value="角色管理页面&lt;br&gt;&lt;br&gt;弹框界面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1610" width="90" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-10" value="/admin/role" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1610" as="sourcePoint" />
+            <mxPoint x="760" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-11" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-10">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-12" value="post新增弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-10">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-13" value="/admin/role" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1680" as="sourcePoint" />
+            <mxPoint x="760" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-14" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-15" value="put编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-13">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-16" value="/admin/role/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1740" as="sourcePoint" />
+            <mxPoint x="760" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-17" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-16">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-18" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-16">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-19" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1570" width="143" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-20" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1650" width="143" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-22" value="根据请求方式delete&lt;br&gt;参数roleId调用此接口&lt;br&gt;删除数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1730" width="143" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-23" value="/admin/menu/tree/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1840" as="sourcePoint" />
+            <mxPoint x="760" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-24" value="(4)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-23">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-25" value="get点击行添加权限按钮获取已选择树id集合" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-23">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-26" value="根据请求方式get&lt;br&gt;参数roleId调用此接口&lt;br&gt;返回已勾选的菜单树&lt;br&gt;树id数组集合[1000,1001]" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1810" width="143" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-28" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1920" as="sourcePoint" />
+            <mxPoint x="760" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-29" value="(4)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-28">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-30" value="get点击行添加权限按钮获取菜单列表树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="F-xrILeKM5k0Q3yJdYzh-28">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-31" value="根据请求方式get&lt;br&gt;返回菜单树数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1900" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-33" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="1870" as="sourcePoint" />
+            <mxPoint x="903" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-35" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="903" y="1930" as="sourcePoint" />
+            <mxPoint x="1020" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-36" value="treeData存在子节点，递归遍历;&lt;br&gt;不存在子节点，将treeData的id添加到临时数组中&lt;br&gt;解析出所有的太监节点id&lt;br&gt;然后根据checkedKeys给太监节点数组赋值&lt;br&gt;树形控件设置属性:default-checked-keys=&quot;checkedKeys&quot;&lt;br&gt;根据checkedKeys值将树节点默认勾选" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1811" width="340" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-37" value="checkedKeys" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1821" width="50" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-41" value="treeData" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1910" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
