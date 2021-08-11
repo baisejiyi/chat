@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T07:10:25.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="CQMR_OzKp6eIdfm1k8b6" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T05:14:33.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ouAxAXw5ZLwcZ5dQAiIi" version="14.9.5" type="github">
   <diagram id="wxqEp88LBiz9xFU-LpbI" name="Page-1">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
@@ -30,7 +30,7 @@
             <mxPoint x="175" y="229.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-18" value="/admin/tenant/list" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-18" value="/admin/tenant/list" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="259" y="120" as="sourcePoint" />
             <mxPoint x="480" y="120" as="targetPoint" />
@@ -42,7 +42,7 @@
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-20" value="get获取租户列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="BPR5QlqRFKLHu6Mq-k-V-18" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-21" value="/code" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-21" value="/code" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="180" as="sourcePoint" />
             <mxPoint x="480" y="180" as="targetPoint" />
@@ -78,10 +78,10 @@
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-29" value="post图片验证成功登录系统" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="BPR5QlqRFKLHu6Mq-k-V-27" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-31" value="进入登录页就调用的接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-31" value="进入登录页就调用的接口" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="110" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-32" value="滑动结束后调用的接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-32" value="滑动结束后调用的接口" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="480" y="210" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-33" value="图片验证成功后调用的接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
@@ -138,7 +138,7 @@
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-55" value="get获取左侧菜单列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="BPR5QlqRFKLHu6Mq-k-V-53" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-56" value="&lt;span&gt;根据请求头&lt;br&gt;Authorization：&#39;Bearer &#39; + token，&lt;br&gt;返回对应的菜单&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-56" value="&lt;span&gt;根据请求头&lt;br&gt;Authorization：&#39;Bearer &#39; + token，&lt;br&gt;返回对应的菜单&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="410" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-57" value="/admin/menu?type=top" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -153,7 +153,7 @@
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-59" value="get获取顶部菜单" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="BPR5QlqRFKLHu6Mq-k-V-57" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-60" value="根据url后面的参数，&lt;br&gt;返回相应的顶部菜单" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-60" value="根据url后面的参数，&lt;br&gt;返回相应的顶部菜单" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="480" y="480" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-61" value="2.登录成功&lt;br&gt;进入首页" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -174,7 +174,7 @@
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-66" value="get获取用户信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="BPR5QlqRFKLHu6Mq-k-V-64" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-67" value="根据请求头&lt;br&gt;Authorization：&#39;Bearer &#39; + token，&lt;br&gt;返回对应的用户信息和用户按钮&lt;br&gt;权限，将数据存到session" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="BPR5QlqRFKLHu6Mq-k-V-67" value="根据请求头&lt;br&gt;Authorization：&#39;Bearer &#39; + token，&lt;br&gt;返回对应的用户信息和用户按钮&lt;br&gt;权限，将数据存到session" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="540" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BPR5QlqRFKLHu6Mq-k-V-68" value="菜单页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
@@ -215,7 +215,7 @@
         <mxCell id="EuUCnVsce8yCuYYj6EX9-8" value="get获取系统全部菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="EuUCnVsce8yCuYYj6EX9-6" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-1" value="根据传参lazy:false&lt;br&gt;页面创建完成调用此接口&lt;br&gt;接口返回系统菜单列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-1" value="根据传参lazy:false&lt;br&gt;页面创建完成调用此接口&lt;br&gt;接口返回系统菜单列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="591" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="jknBJNmuQk7Yw_6J58ai-5" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -230,7 +230,7 @@
         <mxCell id="jknBJNmuQk7Yw_6J58ai-7" value="get获取系统全部菜单树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-5" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-8" value="点击页面新增按钮&lt;br&gt;调用此接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-8" value="点击页面新增按钮&lt;br&gt;调用此接口" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="670" width="143" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jknBJNmuQk7Yw_6J58ai-9" value="/admin/menu/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -245,7 +245,7 @@
         <mxCell id="jknBJNmuQk7Yw_6J58ai-11" value="get获取当前树节点的列表信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-9" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-12" value="点击行编辑按钮传id参数&lt;br&gt;如id：1200，调用此接口&lt;br&gt;返回该数据赋值给表单" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-12" value="点击行编辑按钮传id参数&lt;br&gt;如id：1200，调用此接口&lt;br&gt;返回该数据赋值给表单" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="730" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="jknBJNmuQk7Yw_6J58ai-15" value="1.点击增删改按钮&lt;br&gt;进入弹框页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -290,13 +290,13 @@
         <mxCell id="jknBJNmuQk7Yw_6J58ai-28" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-26" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-29" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-29" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="950" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-30" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-30" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1030" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-31" value="根据请求方式delete&lt;br&gt;参数id调用此接口&lt;br&gt;删除数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-31" value="根据请求方式delete&lt;br&gt;参数id调用此接口&lt;br&gt;删除数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1110" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="jknBJNmuQk7Yw_6J58ai-32" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
@@ -335,7 +335,7 @@
         <mxCell id="jknBJNmuQk7Yw_6J58ai-47" value="get获取角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-45" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-48" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-48" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1190" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="jknBJNmuQk7Yw_6J58ai-49" value="/admin/role/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -350,7 +350,7 @@
         <mxCell id="jknBJNmuQk7Yw_6J58ai-51" value="get查询角色列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="jknBJNmuQk7Yw_6J58ai-49" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jknBJNmuQk7Yw_6J58ai-52" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;查询表单参数&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="jknBJNmuQk7Yw_6J58ai-52" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;查询表单参数&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1270" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-1" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -365,7 +365,7 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-3" value="get获取部门树列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-1" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-4" value="根据请求方式get&lt;br&gt;点击角色新增,查看，编辑按钮&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-4" value="根据请求方式get&lt;br&gt;点击角色新增,查看，编辑按钮&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1350" width="160" height="59" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-5" value="根据session里权限标示&lt;br&gt;如：roleManager_btn_add&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;roleManager_btn_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
@@ -425,13 +425,13 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-18" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-16" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-19" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-19" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1570" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-20" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-20" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1650" width="143" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-22" value="根据请求方式delete&lt;br&gt;参数roleId调用此接口&lt;br&gt;删除数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-22" value="根据请求方式delete&lt;br&gt;参数roleId调用此接口&lt;br&gt;删除数据&lt;br&gt;然后调用接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1730" width="143" height="59" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-23" value="/admin/menu/tree/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -446,7 +446,7 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-25" value="get点击行添加权限按钮获取已选择树id集合" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-23" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-26" value="根据请求方式get&lt;br&gt;参数roleId调用此接口&lt;br&gt;返回已勾选的菜单树&lt;br&gt;树id数组集合[1000,1001]" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-26" value="根据请求方式get&lt;br&gt;参数roleId调用此接口&lt;br&gt;返回已勾选的菜单树&lt;br&gt;树id数组集合[1000,1001]" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1810" width="143" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-28" value="/admin/menu/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -461,7 +461,7 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-30" value="get点击行添加权限按钮获取菜单列表树" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-28" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-31" value="根据请求方式get&lt;br&gt;返回菜单树数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-31" value="根据请求方式get&lt;br&gt;返回菜单树数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1900" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-33" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
@@ -497,7 +497,7 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-44" value="put添加权限弹框更新提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-42" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-45" value="根据请求方式put&lt;br&gt;请求体data:roleId,menuIds&lt;br&gt;进行菜单权限保存" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-45" value="根据请求方式put&lt;br&gt;请求体data:roleId,menuIds&lt;br&gt;进行菜单权限保存" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="1970" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-46" value="/admin/user/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" edge="1">
@@ -507,7 +507,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-47" value="权限管理&lt;br&gt;&lt;br&gt;用户管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="400" y="2160" width="90" height="400" as="geometry" />
+          <mxGeometry x="400" y="2160" width="90" height="480" as="geometry" />
         </mxCell>
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-48" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -533,10 +533,10 @@
         <mxCell id="F-xrILeKM5k0Q3yJdYzh-53" value="get获取用户列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="F-xrILeKM5k0Q3yJdYzh-51" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-54" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-54" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：current=1&amp;amp;size=20&lt;br&gt;调用此接口返回数据&lt;br&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2210" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="F-xrILeKM5k0Q3yJdYzh-55" value="根据请求方式get&lt;br&gt;调用此接口返回部门数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="F-xrILeKM5k0Q3yJdYzh-55" value="根据请求方式get&lt;br&gt;调用此接口返回部门数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2130" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-1" value="/admin/user/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -551,7 +551,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-3" value="get根据用户名搜索用户列表和分页信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-1" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-4" value="根据请求方式get&lt;br&gt;请求参数current,size，username&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;username=d&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-4" value="根据请求方式get&lt;br&gt;请求参数current,size，username&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;username=d&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2290" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-5" value="/admin/user/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -566,7 +566,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-7" value="get点击部门树节点获取用户列表信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-5" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-8" value="根据请求方式get&lt;br&gt;请求参数current,size，deptId&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;deptId=1&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-8" value="根据请求方式get&lt;br&gt;请求参数current,size，deptId&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;deptId=1&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2370" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-9" value="/admin/user/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -581,10 +581,10 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-11" value="get点击搜索按钮，然后再点击部门树节点" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-9" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-12" value="根据请求方式get&lt;br&gt;请求参数current,size，username，deptId&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;deptId=3&amp;amp;username=d&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-12" value="根据请求方式get&lt;br&gt;请求参数current,size，username，deptId&lt;br&gt;如：page?current=1&amp;amp;size=20&amp;amp;deptId=3&amp;amp;username=d&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2450" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-13" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-13" value="" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.456;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="F-xrILeKM5k0Q3yJdYzh-47">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="440" y="2560" as="sourcePoint" />
             <mxPoint x="441" y="2720" as="targetPoint" />
@@ -594,7 +594,7 @@
           <mxGeometry x="400" y="2720" width="90" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-15" value="1.点击增删改按钮&lt;br&gt;进入弹框页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="2630" width="140" height="20" as="geometry" />
+          <mxGeometry x="310" y="2670" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-16" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -610,14 +610,14 @@
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-19" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="490" y="2559" as="sourcePoint" />
-            <mxPoint x="760" y="2559" as="targetPoint" />
+            <mxPoint x="500" y="2639.5" as="sourcePoint" />
+            <mxPoint x="770" y="2639.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-20" value="根据session里权限标示&lt;br&gt;如：sys_user_add&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;sys_user_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="760" y="2530" width="320" height="59" as="geometry" />
+          <mxGeometry x="770" y="2610.5" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-23" value="根据请求方式get&lt;br&gt;调用此接口返回部门数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-23" value="根据请求方式get&lt;br&gt;调用此接口返回部门数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2690" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-24" value="/admin/role/list" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -632,7 +632,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-26" value="get点击新增，编辑按钮获取角色列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-24" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-27" value="根据请求方式get&lt;br&gt;调用此接口返回角色列表数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-27" value="根据请求方式get&lt;br&gt;调用此接口返回角色列表数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2770" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-28" value="/admin/user" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -647,7 +647,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-30" value="post新增弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-28" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-31" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-31" value="根据请求方式post&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2930" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-32" value="/admin/user/details" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -662,7 +662,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-34" value="get用户名输入框失焦校验用户名是否存在" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-32" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-35" value="根据请求方式get&lt;br&gt;参数用户名如：admin。&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;/admin/user/details/admin&lt;/span&gt;&lt;br&gt;调用此接口,验证用户名是否存在" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-35" value="根据请求方式get&lt;br&gt;参数用户名如：admin。&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;/admin/user/details/admin&lt;/span&gt;&lt;br&gt;调用此接口,验证用户名是否存在" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="2850" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-36" value="/admin/user" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -677,7 +677,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-38" value="put编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-36" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-39" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-39" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;保存数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3010" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-40" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
@@ -701,7 +701,7 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-44" value="delete删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Lhx-gNwAV0eRP852keHg-42" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lhx-gNwAV0eRP852keHg-45" value="根据请求方式delete&lt;br&gt;参数id&amp;nbsp;如：/admin/user/3&lt;br&gt;删除该条数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="Lhx-gNwAV0eRP852keHg-45" value="根据请求方式delete&lt;br&gt;参数id&amp;nbsp;如：/admin/user/3&lt;br&gt;删除该条数据&lt;br&gt;然后调用列表接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3090" width="320" height="59" as="geometry" />
         </mxCell>
         <mxCell id="Lhx-gNwAV0eRP852keHg-46" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
@@ -728,191 +728,227 @@
         <mxCell id="Lhx-gNwAV0eRP852keHg-50" value="根据角色管理设置的数据权限&lt;br&gt;此列表会返回节点的&lt;span style=&quot;color: rgb(33 , 33 , 33) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;lucida console&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; text-align: left&quot;&gt;isLock的值，&lt;br&gt;为true的节点后面会有小锁图标，&lt;br&gt;此用户，在此部门没有数据权限&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1130" y="2129" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-1" value="/admin/dept/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-1" value="/admin/dept/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="3280" as="sourcePoint" />
             <mxPoint x="400" y="3280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-2" value="权限管理&lt;br&gt;&lt;br&gt;部门管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-2" value="权限管理&lt;br&gt;&lt;br&gt;部门管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="400" y="3240" width="90" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-3" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-3" value="/admin/dept/tree" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3240" as="sourcePoint" />
             <mxPoint x="760" y="3240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-4" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-3">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-4" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-3" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-5" value="get获取部门树列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-3">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-5" value="get获取部门树列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-3" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-6" value="根据session里权限标示&lt;br&gt;如：deptManager_btn_add&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;deptManager_btn_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-6" value="根据session里权限标示&lt;br&gt;如：deptManager_btn_add&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;deptManager_btn_add&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3210" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-7" value="/admin/dept/" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-7" value="/admin/dept/" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3320" as="sourcePoint" />
             <mxPoint x="760" y="3320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-8" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-7">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-8" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-7" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-9" value="post部门新增确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-7">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-9" value="post部门新增确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-7" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-10" value="根据请求方式post&lt;br&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;请求体data调用此接口&lt;br&gt;&lt;/font&gt;保存数据&lt;br&gt;然后调用部门接口刷新部门树&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-10" value="根据请求方式post&lt;br&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;请求体data调用此接口&lt;br&gt;&lt;/font&gt;保存数据&lt;br&gt;然后调用部门接口刷新部门树&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3290" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-11" value="/admin/dept/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-11" value="/admin/dept/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3400" as="sourcePoint" />
             <mxPoint x="760" y="3400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-12" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-11">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-12" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-11" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-13" value="get返回当前部门节点信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-11">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-13" value="get返回当前部门节点信息" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-11" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-14" value="根据请求方式get&lt;br&gt;参数id&amp;nbsp;如：/admin/dept/3&lt;br&gt;获取当前部门节点信息，赋值给编辑表单" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-14" value="根据请求方式get&lt;br&gt;参数id&amp;nbsp;如：/admin/dept/3&lt;br&gt;获取当前部门节点信息，赋值给编辑表单" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3370" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-15" value="/admin/dept/" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-15" value="/admin/dept/" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3480" as="sourcePoint" />
             <mxPoint x="760" y="3480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-16" value="(4)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-15">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-16" value="(4)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-15" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-17" value="put部门编辑确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-15">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-17" value="put部门编辑确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-15" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-18" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;更新数据&lt;br&gt;然后调用部门接口刷新部门树" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-18" value="根据请求方式put&lt;br&gt;请求体data调用此接口&lt;br&gt;更新数据&lt;br&gt;然后调用部门接口刷新部门树" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3448" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-19" value="/admin/dept/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-19" value="/admin/dept/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3560" as="sourcePoint" />
             <mxPoint x="760" y="3560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-20" value="(5)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-19">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-20" value="(5)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-19" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-21" value="delete部门删除确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-19">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-21" value="delete部门删除确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-19" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-23" value="根据请求方式delete&lt;br&gt;参数id如：/admin/dept/10&lt;br&gt;删除部门&lt;br&gt;然后调用部门接口刷新部门树" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-23" value="根据请求方式delete&lt;br&gt;参数id如：/admin/dept/10&lt;br&gt;删除部门&lt;br&gt;然后调用部门接口刷新部门树" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3530" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-24" value="/admin/tenant/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-24" value="/admin/tenant/index" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="3720" as="sourcePoint" />
             <mxPoint x="400" y="3720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-25" value="权限管理&lt;br&gt;&lt;br&gt;租户管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-25" value="权限管理&lt;br&gt;&lt;br&gt;租户管理页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="400" y="3680" width="90" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-26" value="/admin/dict/type/status_type" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-26" value="/admin/dict/type/status_type" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3680" as="sourcePoint" />
             <mxPoint x="760" y="3680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-27" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-26">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-27" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-26" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-28" value="get获取租户搜索下拉框状态值" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-26">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-28" value="get获取租户搜索下拉框状态值" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-26" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-29" value="根据请求方式get&lt;br&gt;获取下框状态值" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-29" value="根据请求方式get&lt;br&gt;获取下框状态值" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="760" y="3650" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-30" value="/admin/tenant/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-30" value="/admin/tenant/page" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="3760" as="sourcePoint" />
             <mxPoint x="760" y="3760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-31" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-30">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-31" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-30" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-32" value="get获取租户信息列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-30">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-32" value="get获取租户信息列表" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-30" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-33" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：/page?current=1&amp;amp;size=20&amp;amp;status=0&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-33" value="根据请求方式get&lt;br&gt;请求参数current,size&lt;br&gt;如：/page?current=1&amp;amp;size=20&amp;amp;status=0&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3730" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-34" value="/admin/tenant" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-34" value="/admin/tenant" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="4000" as="sourcePoint" />
             <mxPoint x="760" y="4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-35" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-34">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-35" value="(1)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-34" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-36" value="post租户添加弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-34">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-36" value="post租户添加弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-34" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-37" value="根据请求方式post&lt;br&gt;请求体data&lt;br&gt;调用此接口保存数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-37" value="根据请求方式post&lt;br&gt;请求体data&lt;br&gt;调用此接口保存数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="3970" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-38" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-38" value="页面按钮权限展示逻辑" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="490" y="3840" as="sourcePoint" />
             <mxPoint x="760" y="3840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-39" value="根据session里权限标示&lt;br&gt;如：admin_systenant_del&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;admin_systenant_del&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-39" value="根据session里权限标示&lt;br&gt;如：admin_systenant_del&lt;span style=&quot;text-align: left ; background-color: rgb(245 , 247 , 250)&quot;&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;来判断是否在页面显示&lt;br&gt;&lt;font color=&quot;#606266&quot; face=&quot;avenir, helvetica, arial, sans-serif&quot;&gt;v-if=&quot;admin_systenant_del&quot;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="760" y="3810" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-40" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-40" value="" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="440" y="3840" as="sourcePoint" />
             <mxPoint x="441" y="4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-41" value="租户管理&lt;br&gt;&lt;br&gt;弹框界面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-41" value="租户管理&lt;br&gt;&lt;br&gt;弹框界面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="400" y="4000" width="90" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-42" value="/admin/tenant" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-42" value="/admin/tenant" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="4079.5" as="sourcePoint" />
             <mxPoint x="760" y="4079.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-43" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-42">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-43" value="(2)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-42" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-44" value="put租户编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-42">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-44" value="put租户编辑弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-42" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-45" value="根据请求方式put&lt;br&gt;请求体data&lt;br&gt;调用此接口更新数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-45" value="根据请求方式put&lt;br&gt;请求体data&lt;br&gt;调用此接口更新数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="4050.5" width="320" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-46" value="/admin/tenant/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-46" value="/admin/tenant/id" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="4160" as="sourcePoint" />
             <mxPoint x="760" y="4160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-47" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-46">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-47" value="(3)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-46" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-48" value="delete租户删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="B00PEkC8W0SU6Cp0K41p-46">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-48" value="delete租户删除弹框确认提交" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="B00PEkC8W0SU6Cp0K41p-46" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B00PEkC8W0SU6Cp0K41p-49" value="根据请求方式delete&lt;br&gt;参数id，如：&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;/admin/tenant/2&lt;/span&gt;&lt;br&gt;调用此接口删除数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="B00PEkC8W0SU6Cp0K41p-49" value="根据请求方式delete&lt;br&gt;参数id，如：&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;/admin/tenant/2&lt;/span&gt;&lt;br&gt;调用此接口删除数据&lt;br&gt;然后调用租户接口刷新列表" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="4130" width="320" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="2214" width="350" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2360" width="363" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="2408" width="275" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="3673" width="253" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-9" value="/admin/user/edit" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2560" as="sourcePoint" />
+            <mxPoint x="760" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-10" value="(6)api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="2vPbH9S6dyOdvM9-fZmm-9">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-11" value="put点击头像，个人信息，提交按钮" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="2vPbH9S6dyOdvM9-fZmm-9">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-12" value="根据请求方式put&lt;br&gt;请求体data，提交个人信息&lt;br&gt;调用此接口返回数据" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2530" width="320" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1718" width="305" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1771" width="269" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2vPbH9S6dyOdvM9-fZmm-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="3300" width="381" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
